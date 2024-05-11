@@ -1,25 +1,30 @@
-//numbers
-
-alert( isNaN(NaN) ); 
-alert( isNaN("str") ); 
-
-alert( Number.isFinite(123) ); 
-alert( Number.isFinite(Infinity) ); 
-alert( Number.isFinite(2 / 0) ); 
-
-
-alert( Number.isFinite("123") ); 
-alert( isFinite("123") );
-
-alert(-'250ka');
-alert(parseInt('250inr'));
-alert(parseFloat('150.34.55'));
-
-alert(parseInt('24.938'));
-alert(parseInt('250a34'));
-alert(Math.round());
-
-alert(Math.max(1,4,5,66,677));
-alert(Math.min(1393,3878,3389,339));
-
-alert(Math.pow(2, 12));
+//data types in js
+//number
+let n =1123;
+alert(n)
+alert( 1 / 0 );
+alert( Infinity );
+alert( "not a number" / 2 );
+//bigint
+console.log(289238598940+48);
+console.log(287897397344+27);
+// the "n" at the end means it's a BigInt
+const bigInt = 1234567890123456789012345678901234567890n;
+//string
+let str = "Hello";
+let str2 = 'Single quotes are ok too';
+let str3= `backtiicks are also good`;
+//boolean
+let nameFieldChecked = true; 
+let ageFieldChecked = false;
+//null
+let age= null//here age is undefined in other words
+let('name');
+alert(name);//this shows undefined
+//typeof
+typeof undefined // "undefined"
+typeof 0 // "number"
+typeof 10n // "bigint"
+typeof true // "boolean"
+typeof "foo" // "string"
+typeof alert 
