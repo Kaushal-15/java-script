@@ -1,6 +1,6 @@
 let productColors = ['blue','green','red'];
 console.log(productColors);
-console.log(productColors[0]); //here key is blue or data and key is index value//
+console.log(productColors[0]); //here key is blue or the input data and key is index value//
 console.log(typeof productColors);
 console.log(productColors.length);
 
