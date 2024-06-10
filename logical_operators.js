@@ -1,3 +1,4 @@
+//or opeartor//
 //in this operators if the data is variable or anything it changes it to the boolean value//
 console.log(true || true);//atleast only value is true it results in true//
 console.log(false || true);
