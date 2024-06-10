@@ -28,3 +28,32 @@ switch (a) {
   default:
     alert( "I don't know such values" );
 }
+
+let b = 4;
+switch (b) {
+  case 4:
+    alert("right!");
+    break;
+case 3:
+  case 5:
+    alert("wrong!please check the input");
+    break;
+  default:
+    alert("The result is quite scary!");
+    break;
+}
+let word = prompt("Enter a value");
+switch (word) {
+  case "0":
+    case "1":
+      alert("The number is zero or one");
+    break;
+case "2":
+  alert("The value is Two");
+  break;
+  case 3://But for 3, the result of the prompt is a string "3", which is not strictly equal === to the number 3. So we’ve got a dead code in case 3! The default variant will execute.//
+    alert("Never excutes");
+    break;
+  default:
+   alert("unkown value");
+}
