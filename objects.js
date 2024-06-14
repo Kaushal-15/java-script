@@ -13,3 +13,11 @@ let course =  {
 console.log(course.name);
 course.hours = 4;
 console.log(course.hours);
+
+
+let User = {
+  name1: "kaushal",
+  age: 30
+};
+let key = prompt("What do you want to know about the user?", "name1");
+alert( User[key] ); 
