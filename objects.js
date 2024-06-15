@@ -21,3 +21,12 @@ let User = {
 };
 let key = prompt("What do you want to know about the user?", "name1");
 alert( User[key] ); 
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    isEmployed: true
+};
+
+console.log(person);
