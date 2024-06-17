@@ -10,3 +10,7 @@ for (let num = 0; num <=10; num++){
  console.log(num);
 
 }
+const fruits = ["apple", "banana", "orange"];
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
